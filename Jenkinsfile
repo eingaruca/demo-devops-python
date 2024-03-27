@@ -25,5 +25,5 @@ import org.emic.devsu.*
 mainPipeline {
     projectType = "django"
     test = [true, true, true]
-    // codeAnalysis = true   
+    codeAnalysis = true   
 }
