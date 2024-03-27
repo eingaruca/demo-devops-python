@@ -12,7 +12,7 @@ import org.emic.devsu.*
  *  - You decide if use test Variable. If you want test:
  *    - Variable Name: test
  *          - Array[Boolean, Boolean, Boolean] 
- *          - Each Boolean:
+ *          - Each element:
  *              - [0] => Unit Tests
  *              - [1] => Acceptance Tests
  *              - [2] => Integration Tests
@@ -24,6 +24,6 @@ import org.emic.devsu.*
 */
 mainPipeline {
     projectType = "django"
-    // test = [true, true, true]
+    test = [true, true, true]
     // codeAnalysis = true   
 }
