@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: eingaruca/django:v1  # Reemplaza esto con la ubicación de tu imagen Docker
+        image: eingaruca/django:v1
         ports:
         - containerPort: 8000
 
