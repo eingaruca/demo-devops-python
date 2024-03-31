@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: eingaruca/django:v1
+        image: eingaruca/django:TAGVARIABLE
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
 
