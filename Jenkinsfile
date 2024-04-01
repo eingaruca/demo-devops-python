@@ -1,4 +1,4 @@
-@Library('devops-pipelines@dev')
+@Library('devops-pipelines@main')
 
 import org.emic.devsu.*
 
